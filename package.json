@@ -16,7 +16,7 @@
     "vue-router": "^4.2.5"
   },
   "bin": {
-    "xgi": "./xgi.mjs"
+    "xgi": "./lib/index.mjs"
   },
   "dependencies": {
     "picocolors": "^1.0.0"
