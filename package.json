@@ -1,24 +1,28 @@
 {
   "name": "xgi",
-  "private": true,
-  "type": "module",
+  "version": "0.0.0",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "ex": "node server.mjs"
+  },
+  "dependencies": {
+    "create-vitawind": "^2.4.0",
+    "express": "^4.18.2",
+    "vite-express": "^0.11.1",
+    "vue": "^3.3.9"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "nuxt": "^3.8.2",
-    "vue": "^3.3.8",
-    "vue-router": "^4.2.5"
+    "@babel/types": "^7.23.4",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vue/compiler-sfc": "^3.3.9",
+    "typescript": "^5.3.2",
+    "vitawind": "^2.3.0",
+    "vite": "4.5.0",
+    "vue-tsc": "^1.8.22"
   },
   "bin": {
     "xgi": "./lib/index.mjs"
-  },
-  "dependencies": {
-    "picocolors": "^1.0.0"
   }
 }

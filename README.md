@@ -1,75 +1,41 @@
-# Nuxt 3 Minimal Starter
+# template-vite-vue-ts-tailwind-jit
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+- **template of:** vite + vue + typescript
+- **tailwindcss:** v2.2.7
 
-## Setup
-
-Make sure to install the dependencies:
-
+## Started
+with npm:
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+```
+with yarn:
+```bash
+yarn
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+---
+## Develop
+with npm:
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
+```
+with yarn:
+```bash
 yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
-
+---
+## Build
+with npm:
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
-
-Locally preview production build:
-
+with yarn:
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+yarn build
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
+<p align="center">
+<img src="./powered-by-vitawind-bright.png">
+</p>
